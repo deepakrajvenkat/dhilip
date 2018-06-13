@@ -1,0 +1,14 @@
+s=input()
+l=s.split()
+print(l)
+sum=0
+e=[]
+for i in range(0,len(l),2):
+	sum+=int(l[i])
+	e.append(int(l[i]))
+print (sum)
+print (e)
+l.sort()
+print (l)
+e.sort()
+print (e)
