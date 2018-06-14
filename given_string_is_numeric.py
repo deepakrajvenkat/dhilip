@@ -1,5 +1,5 @@
 n=input()
-if n.isdigit():
+if n.startswith('-') and n[1:].isdigit():
 	print ("yes")
 else:
 	print ("no")
