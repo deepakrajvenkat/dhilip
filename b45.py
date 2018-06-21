@@ -6,3 +6,5 @@ if n.isdigit():
 		n=n//10
 		count+=1
 	print (count)	
+else:
+	print ("invalid input")
