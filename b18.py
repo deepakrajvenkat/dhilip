@@ -2,6 +2,7 @@ s=input()
 l=s.split(" ")
 n=int(l[0])
 m=int(l[1])
+list2=[]
 for i in range (n,m):
 	sum=0
 	temp=i
@@ -10,6 +11,6 @@ for i in range (n,m):
 		c=rem*rem*rem
 		sum+=c
 		i=i//10
-	if i==temp:
-		print (i)
-		
+	if sum==temp:
+		list2.append(str(temp))
+print (" ".join(list2))		
