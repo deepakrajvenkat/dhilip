@@ -1,4 +1,5 @@
 n=input()
-l=n.split(" ")1
+l=n.split(" ")
 count=len(l)
 print (count)
+
