@@ -1,0 +1,5 @@
+n=input()
+l=n.split(" ")
+print (l)
+count=len(l)
+print (count)
