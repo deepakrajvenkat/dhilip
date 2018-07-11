@@ -7,5 +7,5 @@ c=0
 for i in range(l):
 	if (a[i]==b[i]):
 		c+=1
-result=(len(b)-c)		
+result=(l-c)		
 print (result)
