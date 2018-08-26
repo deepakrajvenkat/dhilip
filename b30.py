@@ -1,0 +1,20 @@
+f=input().split()
+s=input().split()
+h1=int(f[0])
+m1=int(f[1])
+h2=int(s[0])
+m2=int(s[1])
+m11=h1*60
+f1=m11+m1
+m22=h2*60
+s1=m22+m2
+if(f1>s1):
+	t=f1-s1
+	h=t//60
+	m=t%60
+	print(h,m)
+else:
+	t=s1-f1
+	h=t//60
+	m=t%60
+	print(h,m)
