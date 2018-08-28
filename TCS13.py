@@ -1,0 +1,12 @@
+n=int(input())
+sum=0
+m=n
+while(n>0):
+	r=n%10
+	n=n//10
+	g=r*r*r
+	sum+=g
+if(sum==m):
+	print("yes")
+else:
+	print("no")
