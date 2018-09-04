@@ -1,5 +1,4 @@
-n=int(input())
-m=int(input())
+n,m=map(int,input().split())
 ans=n*m
 if(ans%2==0):
 	print("even")
