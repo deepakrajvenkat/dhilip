@@ -1,0 +1,9 @@
+n=int(input())
+base=1
+sum=0
+while(n!=0):
+	rem=n%10
+	sum=sum+rem*base
+	n=n//10
+	base=base*2
+print(sum)
