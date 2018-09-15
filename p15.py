@@ -1,6 +1,5 @@
 n=input()
 check=[]
-c=[]
 maxi=1
 for i in range(len(n)):
 	count=0
@@ -13,4 +12,4 @@ for i in range(len(n)):
 		if(count>maxi):
 			maxi=count
 			character=n[i]
-print(character)			
+print(character)	
