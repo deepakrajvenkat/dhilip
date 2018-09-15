@@ -1,3 +1,7 @@
-n=input()
-n=n[::-1]
-print(n)
+n=int(input())
+sum=0
+while(n):
+	rem=n%10
+	sum=sum*10+rem
+	n=n//10
+print(sum)
