@@ -1,3 +1,4 @@
+n=input()
 l=list(n)
 l2=[]
 for i in range(len(l)):
@@ -18,3 +19,5 @@ for i in range(len(l)):
 		p=chr(s)
 		l2.append(p)
 print("".join(l2))
+		
+	
