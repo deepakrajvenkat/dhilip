@@ -5,4 +5,4 @@ for i in range(2,n+1):
 		if(i%j==0):
 			flag=flag+1
 	if(flag==0 and n%i==0):
-		print(i)
+		print(i, end=' ')
